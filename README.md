@@ -10,7 +10,7 @@ PATH:
 
 Node.js:  
   npm -g install ionic@4.8.0 cordova //Installing  
-  ionic start [projectName] blank [banlkPage]  
+  ionic start [projectName] blank [blankPage]  
   ionic serve // Starting server  
 
 Build:  
