@@ -4,7 +4,7 @@ Chill &amp; Study
 # Arch-Linux config
 PATH:  
 /etc/profile  
-/etc/bash.bashrc
+/etc/bash.bashrc  
   export PATH="$PATH:/$HOME/user/Android/Sdk/tools"  
   export PATH="$PATH:/$HOME/user/Android/Sdk/tools/bin"  
 
