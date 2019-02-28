@@ -7,6 +7,6 @@ PATH:
   export PATH="$PATH:/$HOME/user/Android/Sdk/tools/bin"  
 
 Node.js:
-  npm -g install ionic@4.8.0 cordova //Installing
-  ionic start [projectName] blank [banlkPage]
-  ionic serve // Starting server
+  npm -g install ionic@4.8.0 cordova //Installing  
+  ionic start [projectName] blank [banlkPage]  
+  ionic serve // Starting server  
