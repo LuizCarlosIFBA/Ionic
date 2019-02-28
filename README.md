@@ -10,3 +10,8 @@ Node.js:
   npm -g install ionic@4.8.0 cordova //Installing  
   ionic start [projectName] blank [banlkPage]  
   ionic serve // Starting server  
+
+Build:  
+  sdkmanager --licenses // Accept licenses  
+  ionic build // Checke errors  
+  ionic cordova build android // Build an Apk  
