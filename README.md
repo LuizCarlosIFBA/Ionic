@@ -14,4 +14,10 @@ Node.js:
 Build:  
   sdkmanager --licenses // Accept licenses  
   ionic build // Checke errors  
-  ionic cordova build android // Build an Apk  
+  **ionic cordova build android // Build an Apk**  
+  
+Devices check:  
+  cordova run android  --list // Show devices
+  ionic cordova emulate android --device emulated_device  
+  cordova build [emulatorName] // Build new emulator  
+  **cordova run android // Open the ionic project and run**  
