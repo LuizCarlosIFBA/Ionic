@@ -42,8 +42,7 @@ Start:
 Start:  
   ionic cordova plugin add cordova-sqlite-storage  
   npm install @ionic-native/sqlite  
-  
-**Fix the bug for Ionic 4:**
+**Fix the bug for Ionic 4:**  
   app.module.ts | import { SQLite } from '@ionic-native/sqlite/ngx'; // Need to use "package/ngx"  
 Refs for this bug:  
 https://stackoverflow.com/questions/54396072/type-sqliteoriginal-is-not-assignable-to-type-provider  
