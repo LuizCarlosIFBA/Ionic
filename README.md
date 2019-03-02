@@ -23,3 +23,14 @@ Devices check:
   ionic cordova emulate android --device emulated_device  
   cordova build [emulatorName] // Build new emulator  
   **cordova run android // Open the ionic project and run**  
+
+-----------------------------------
+
+# NPM for libraries  
+Start:
+  mkdir folder && cd folder  
+  npm init / Start  
+  npm install [librarie] --save / For the group
+  npm install [librarie] --save-dev / Just for the dev
+  npm install / Inside the folder with package.json
+  npm uninstall librarie --save / Remove librarie and save
