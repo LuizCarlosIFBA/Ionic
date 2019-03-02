@@ -49,5 +49,12 @@ Start:
 Refs for this bug:  
 https://stackoverflow.com/questions/54396072/type-sqliteoriginal-is-not-assignable-to-type-provider  
 https://ionicframework.com/docs/native  
+  
+Or:**Dowgrade SQLite for 4.8**  
+  ionic cordova plugin remove cordova-sqlite-storage  
+  npm uninstall --save @ionic-native/sqlite  
+  
+  1 - ionic cordova plugin add cordova-sqlite-storage@2.5  
+  2 - npm install @ionic-native/sqlite@4.8  
 
 -----------------------------------
