@@ -23,7 +23,7 @@ Devices check:
   ionic cordova emulate android --device emulated_device  
   cordova build [emulatorName] // Build new emulator  
   **cordova run android // Open the ionic project and run**  
-  **ionic cordova run android -lc // with Log**
+  **ionic cordova run android -lc --target=[NAME] // with Log**
 
 -----------------------------------
 
