@@ -27,6 +27,14 @@ Devices check:
 
 -----------------------------------
 
+# Android-Studio fix bugs  
+List:  
+  emulator -list-avds // List emulators  
+  emulator @name-of-your-emulator // Start emulator  
+  
+QT bugs with libs, solution:  
+https://stackoverflow.com/questions/42554337/cannot-launch-avd-in-emulatorqt-library-not-found  
+
 # NPM for libraries  
 Start:
   mkdir folder && cd folder  
