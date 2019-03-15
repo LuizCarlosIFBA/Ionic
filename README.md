@@ -7,6 +7,7 @@ PATH:
 /etc/bash.bashrc  
   export PATH="$PATH:/$HOME/user/Android/Sdk/tools"  
   export PATH="$PATH:/$HOME/user/Android/Sdk/tools/bin"  
+  alias emulator="/home/ghost/Android/Sdk/tools/emulator"  
   
 -----------------------------------
 
@@ -76,5 +77,8 @@ ExecuteSql:
 
 Uncaught (in promise):  
   Check the library for the correct version of Ionic  
-
+  
+GPS:
+  Just run the emulator without -lc  
+  "ionic cordova run android"
 
