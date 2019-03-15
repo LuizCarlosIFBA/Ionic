@@ -7,37 +7,38 @@ PATH:
 /etc/bash.bashrc  
   export PATH="$PATH:/$HOME/user/Android/Sdk/tools"  
   export PATH="$PATH:/$HOME/user/Android/Sdk/tools/bin"  
-
-Node.js:  
-  npm -g install ionic@4.8.0 cordova //Installing  
-  ionic start [projectName] blank [blankPage]  
-  ionic serve // Starting server  
-
-Build:  
-  sdkmanager --licenses // Accept licenses  
-  ionic build // Checke errors  
-  **ionic cordova build android // Build an Apk**  
   
-Devices check:  
-  cordova run android  --list // Show devices
-  ionic cordova emulate android --device emulated_device  
-  cordova build [emulatorName] // Build new emulator  
-  **cordova run android // Open the ionic project and run**  
-  **ionic cordova run android -lc --target=[NAME] // with Log**
-
 -----------------------------------
 
-# Android-Studio fix bugs  
+# Ionic Commands  
+New:  
+  ionic start [projectName] blank [blankPage]  
+  ionic serve // Starting server  
+  ionic build // Checke errors  
+  **ionic cordova run android -lc --target=[NAME] // with Log**  
+  **ionic cordova build android // Build an Apk**  
+
+Devices check:  
+  cordova run android  --list // Show devices  
+  ionic cordova emulate android --device emulated_device  
+  cordova build [emulatorName] // Build new emulator  
+  
+-----------------------------------
+
+# Android-Studio && fix bugs  
 List:  
+  sdkmanager --licenses // Accept licenses  
   emulator -list-avds // List emulators  
   emulator @name-of-your-emulator // Start emulator  
   
 QT bugs with libs, solution:  
 https://stackoverflow.com/questions/42554337/cannot-launch-avd-in-emulatorqt-library-not-found  
 
-# NPM for libraries  
-Start:
-  mkdir folder && cd folder  
+-----------------------------------
+
+# NPM & libraries  
+Start node.js:
+  npm -g install ionic@4.8.0 cordova //Installing  
   npm init // Start  
   npm install [package] --global // Global var like Ionic  
   npm install [librarie] --save // For the group  
@@ -66,3 +67,14 @@ Or:**Dowgrade SQLite for 4.8**
   2 - npm install @ionic-native/sqlite@4.8  
 
 -----------------------------------
+
+# Emulator error's  
+ExecuteSql:
+  Normal bug, just ignore.  
+![alt text](https://i.imgur.com/5DsGSW1.png)
+
+
+Uncaught (in promise):  
+  Check the library for the correct version of Ionic  
+
+
