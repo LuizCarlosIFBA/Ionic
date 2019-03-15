@@ -78,7 +78,7 @@ ExecuteSql:
 Uncaught (in promise):  
   Check the library for the correct version of Ionic  
   
-GPS:
+GPS:  
   Just run the emulator without -lc  
   "ionic cordova run android"
 
