@@ -70,7 +70,7 @@ Or:**Dowgrade SQLite for 4.8**
 -----------------------------------
 
 # Emulator error's  
-ExecuteSql:
+ExecuteSql:  
   Normal bug, just ignore.  
 ![alt text](https://i.imgur.com/5DsGSW1.png)
 
