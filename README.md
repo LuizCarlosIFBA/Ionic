@@ -80,6 +80,6 @@ Uncaught (in promise):
   
 GPS:  
   Just run the emulator without -lc  
-  "ionic cordova run android".
-![alt text](https://i.imgur.com/YzD9RWT.png)
+  "ionic cordova run android".  
+![alt text](https://i.imgur.com/0lGOlKQ.png)
 
