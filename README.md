@@ -84,7 +84,7 @@ GPS:
 ![alt text](https://i.imgur.com/0lGOlKQ.png)
 
 -----------------------------------  
-SmartMoney app:  
+# SmartMoney app:  
 Screen's  
 ![alt text](https://i.imgur.com/OShEp41.png)
 ![alt text](https://i.imgur.com/RCOVa5M.png)
