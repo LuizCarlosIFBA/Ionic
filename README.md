@@ -7,7 +7,7 @@ PATH:
 /etc/bash.bashrc  
   export PATH="$PATH:/$HOME/user/Android/Sdk/tools"  
   export PATH="$PATH:/$HOME/user/Android/Sdk/tools/bin"  
-  alias emulator="/home/ghost/Android/Sdk/tools/emulator"  
+  alias emulator="/home/**user**/Android/Sdk/tools/emulator"  
   
 -----------------------------------
 
