@@ -7,5 +7,8 @@ import { Component, Input } from '@angular/core';
 export class BalanceLabelComponent {
   @Input() currentBalance;
 
-  constructor() { }
+  constructor() { 
+    alert("Role a tela para mais detalhes");
+  }
+
 }
